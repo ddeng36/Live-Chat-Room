@@ -1,7 +1,46 @@
 
 # Chat Application
 I create this chat app by my self.This repository contains a chat application implemented in Java. The application allows multiple clients to connect to a server and exchange messages in real-time. Below you will find instructions on how to run the application and a brief overview of the file structure.
+# Features
+  - ### Client Features
+    1. Log in with username and password: Users can log in to the app by entering their username and password.
 
+    2. Invalid login handling: If the entered username and password are invalid, a pop-up window will display an error message, prompting the user to re-enter the credentials.
+
+    3. Display online user list: The app provides a list of currently online users, allowing clients to see who is available for communication.
+       
+    4. Broadcast message to all users: Clients can send a message that will be broadcasted to all online users.
+       
+    5. Validate receiver when sending a message: When a client sends a message to another client, the app validates the receiver's identity to ensure the message is delivered to the correct recipient.
+       
+    6. Send a message to one user: Clients can send private messages to a specific user.
+       
+    7. Display messages on recipient's window: If the recipient is online, the message will be displayed on their GUI window.
+       
+    8. Offline message handling: If the recipient is offline, the message will be stored on the server, and the recipient will receive it upon their next login.
+       
+    9. Send files to one user: Clients can send files to specific users.
+    
+    10. Display registered users: The app provides a list of all registered users.
+        
+    11. Log out: Clients can log out from the app by closing the window, which triggers a disconnection message sent to the server.
+        
+    12. Display chat history: The client's GUI window displays the chat history, allowing users to view past conversations.
+
+  - ### Server Features
+    1. Username and password validation: The server maintains a database of username and password data and validates the credentials provided by clients during login.
+     
+    2. Thread pool management: The server manages a thread pool and creates a new thread for each client that connects to the server.
+    
+    3. Single-server Multi-client: The server can handle multiple client connections simultaneously.
+    
+    4. Message forwarding: If the recipient is online, the server forwards the message to the intended receiver.
+    
+    5. Offline message storage: If the recipient is offline, the server stores the message and delivers it upon the recipient's next login.
+    
+    6. Display journal file: The server's GUI window displays a journal file that contains relevant information and logs.
+    
+    7. These features collectively enable communication and interaction between clients through the server while maintaining data integrity and providing a seamless user experience.
 ## Instructions
 - Videos instructions are in the Videos folder.
 - Detailed text report is in the root folder
