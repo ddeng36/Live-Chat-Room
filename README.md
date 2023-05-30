@@ -31,8 +31,8 @@ I create this chat app by my self.This repository contains a chat application im
   
   - ChatClient/team/view/Start.java: This class is used to start the client application.
 
-- License
+## License
   - This project is licensed under the MIT License. Feel free to use and modify the code as per the terms of the license.
 
-- Acknowledgements
+## Acknowledgements
   - The implementation of this chat application was inspired by various online resources and tutorials. We would like to acknowledge the contribution of these resources in developing this project.
