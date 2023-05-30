@@ -1,6 +1,6 @@
 
 # Chat Application
-This repository contains a chat application implemented in Java. The application allows multiple clients to connect to a server and exchange messages in real-time. Below you will find instructions on how to run the application and a brief overview of the file structure.
+I create this chat app by my self.This repository contains a chat application implemented in Java. The application allows multiple clients to connect to a server and exchange messages in real-time. Below you will find instructions on how to run the application and a brief overview of the file structure.
 
 ## Instructions
 - Videos instructions are in the Videos folder.
@@ -34,5 +34,5 @@ This repository contains a chat application implemented in Java. The application
 - License
   - This project is licensed under the MIT License. Feel free to use and modify the code as per the terms of the license.
 
-  - Acknowledgements
+- Acknowledgements
   - The implementation of this chat application was inspired by various online resources and tutorials. We would like to acknowledge the contribution of these resources in developing this project.
