@@ -8,7 +8,7 @@ This repository contains a chat application implemented in Java. The application
 - To run the chat application, please follow these steps:
   1. Run the ChatServer/team/view/Server class first to start the server. This will act as a single-server for handling client connections.
   2. Run the ChatClient/team/view/Start class to start the client application. You can run multiple instances of the client in different IDE windows to simulate multiple clients connecting to the server.
-  	- User and Password are in ChatServer/team/view/Server.java
+     - User and Password are in ChatServer/team/view/Server.java
   3. Then the detailed tutorials for the server and client will be displayed separately on the graphical user interface (GUI).
 
 ## File Descriptions
@@ -22,13 +22,13 @@ This repository contains a chat application implemented in Java. The application
 - Client
 
   - ChatClient/team/shared/User.java and ChatServer/team/shared/User.java: These classes define the user model used by both the client and the server.
-  - 
+  
   - ChatClient/team/shared/Message.java and ChatServer/team/shared/Message.java: These classes define the message model used by both the client and the server.
-  - 
+  
   - ChatClient/team/service/Service.java: This class provides functionality for logging in, logging out, sending/receiving messages and files to/from the server.
-  - 
+  
   - ChatClient/team/view/ChatView.java: This class represents the GUI of the client.
-  - 
+  
   - ChatClient/team/view/Start.java: This class is used to start the client application.
 
 - License
