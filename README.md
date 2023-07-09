@@ -1,6 +1,6 @@
 
 # Chat Application
-I create this chat app by my self.This repository contains a chat application implemented in Java. The application allows multiple clients to connect to a server and exchange messages in real-time. Below you will find instructions on how to run the application and a brief overview of the file structure.
+I create this chat app by my self.This repository contains a chat application implemented by Java. The application allows multiple clients to connect to a server and exchange messages in real-time. Below you will find instructions on how to run the application and a brief overview of the file structure.
 # Features
   - ### Client Features
     1. Log in with username and password: Users can log in to the app by entering their username and password.
